@@ -1,0 +1,228 @@
+{
+ "seeds": [
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "methods": {
+  "combined": {
+   "precision": {
+    "mean": 0.644,
+    "min": 0.644,
+    "max": 0.644
+   },
+   "recall": {
+    "mean": 0.825,
+    "min": 0.825,
+    "max": 0.825
+   },
+   "f1": {
+    "mean": 0.723,
+    "min": 0.723,
+    "max": 0.723
+   },
+   "flagged": {
+    "mean": 73.0,
+    "min": 73.0,
+    "max": 73.0
+   }
+  },
+  "model": {
+   "precision": {
+    "mean": 0.644,
+    "min": 0.644,
+    "max": 0.644
+   },
+   "recall": {
+    "mean": 0.825,
+    "min": 0.825,
+    "max": 0.825
+   },
+   "f1": {
+    "mean": 0.723,
+    "min": 0.723,
+    "max": 0.723
+   },
+   "flagged": {
+    "mean": 73.0,
+    "min": 73.0,
+    "max": 73.0
+   }
+  },
+  "rules": {
+   "precision": {
+    "mean": 1.0,
+    "min": 1.0,
+    "max": 1.0
+   },
+   "recall": {
+    "mean": 0.754,
+    "min": 0.754,
+    "max": 0.754
+   },
+   "f1": {
+    "mean": 0.86,
+    "min": 0.86,
+    "max": 0.86
+   },
+   "flagged": {
+    "mean": 43.0,
+    "min": 43.0,
+    "max": 43.0
+   }
+  }
+ },
+ "combined_average_precision": {
+  "mean": 0.891,
+  "min": 0.879,
+  "max": 0.901
+ },
+ "recall_by_variant": [
+  {
+   "method": "combined",
+   "fraud_type": "irsf",
+   "variant": "obvious",
+   "recall": 1.0,
+   "caught": 40,
+   "planted": 40
+  },
+  {
+   "method": "combined",
+   "fraud_type": "irsf",
+   "variant": "stealthy",
+   "recall": 1.0,
+   "caught": 15,
+   "planted": 15
+  },
+  {
+   "method": "combined",
+   "fraud_type": "simbox",
+   "variant": "obvious",
+   "recall": 1.0,
+   "caught": 160,
+   "planted": 160
+  },
+  {
+   "method": "combined",
+   "fraud_type": "simbox",
+   "variant": "stealthy",
+   "recall": 0.0,
+   "caught": 0,
+   "planted": 50
+  },
+  {
+   "method": "combined",
+   "fraud_type": "wangiri",
+   "variant": "obvious",
+   "recall": 1.0,
+   "caught": 15,
+   "planted": 15
+  },
+  {
+   "method": "combined",
+   "fraud_type": "wangiri",
+   "variant": "stealthy",
+   "recall": 1.0,
+   "caught": 5,
+   "planted": 5
+  },
+  {
+   "method": "model",
+   "fraud_type": "irsf",
+   "variant": "obvious",
+   "recall": 1.0,
+   "caught": 40,
+   "planted": 40
+  },
+  {
+   "method": "model",
+   "fraud_type": "irsf",
+   "variant": "stealthy",
+   "recall": 1.0,
+   "caught": 15,
+   "planted": 15
+  },
+  {
+   "method": "model",
+   "fraud_type": "simbox",
+   "variant": "obvious",
+   "recall": 1.0,
+   "caught": 160,
+   "planted": 160
+  },
+  {
+   "method": "model",
+   "fraud_type": "simbox",
+   "variant": "stealthy",
+   "recall": 0.0,
+   "caught": 0,
+   "planted": 50
+  },
+  {
+   "method": "model",
+   "fraud_type": "wangiri",
+   "variant": "obvious",
+   "recall": 1.0,
+   "caught": 15,
+   "planted": 15
+  },
+  {
+   "method": "model",
+   "fraud_type": "wangiri",
+   "variant": "stealthy",
+   "recall": 1.0,
+   "caught": 5,
+   "planted": 5
+  },
+  {
+   "method": "rules",
+   "fraud_type": "irsf",
+   "variant": "obvious",
+   "recall": 1.0,
+   "caught": 40,
+   "planted": 40
+  },
+  {
+   "method": "rules",
+   "fraud_type": "irsf",
+   "variant": "stealthy",
+   "recall": 0.0,
+   "caught": 0,
+   "planted": 15
+  },
+  {
+   "method": "rules",
+   "fraud_type": "simbox",
+   "variant": "obvious",
+   "recall": 1.0,
+   "caught": 160,
+   "planted": 160
+  },
+  {
+   "method": "rules",
+   "fraud_type": "simbox",
+   "variant": "stealthy",
+   "recall": 0.0,
+   "caught": 0,
+   "planted": 50
+  },
+  {
+   "method": "rules",
+   "fraud_type": "wangiri",
+   "variant": "obvious",
+   "recall": 1.0,
+   "caught": 15,
+   "planted": 15
+  },
+  {
+   "method": "rules",
+   "fraud_type": "wangiri",
+   "variant": "stealthy",
+   "recall": 0.0,
+   "caught": 0,
+   "planted": 5
+  }
+ ]
+}
