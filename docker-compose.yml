@@ -1,0 +1,5 @@
+services:
+  fraud-detector:
+    build: .
+    ports:
+      - "8000:8000"   # dashboard at /, API at /api/...
